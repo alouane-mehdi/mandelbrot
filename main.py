@@ -42,11 +42,14 @@ class Main:
     
 
     def main_pygame(self): 
+        #fonction pygame
         while self.running: 
             self.display_image()
             for event in pygame.event.get():
+                #fonction pour quitter
                 if event.type == pygame.QUIT:
                     self.running =False
+                #fonction pour cliquer sur les images et ouvrir les fractales 
                 if event.type == pygame.MOUSEBUTTONDOWN:
                     if self.rect_triangle.collidepoint(event.pos):
                         print("yes")
