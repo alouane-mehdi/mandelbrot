@@ -1,9 +1,5 @@
 import pygame
-<<<<<<< HEAD
-from Fractales import Julia , Mandelbrot , Sierpinski
-=======
 from fractales import FloconDeKoch, Sierpinski, Mandelbrot, BurningShip, Julia
->>>>>>> 39165cb11d5f457f6145195d4e7f63feb1c65a7e
 
 class Main:
     def __init__(self):
@@ -11,7 +7,7 @@ class Main:
         self.sierpinski_script = Sierpinski()
         self.mandelbrot_script = Mandelbrot()
         self.burning_ship_script = BurningShip()
-        self.koch_snowflake_script = FloconDeKoch(iterations=4)
+        self.koch_snowflake_script = FloconDeKoch(iterations=5)
 
         pygame.init()
 
@@ -20,7 +16,7 @@ class Main:
 
         self.triangle_de_sierpinski = pygame.transform.scale(pygame.image.load('image/triangle_de_sierpinski.png'), (240, 200))
         self.mandelbrot = pygame.transform.scale(pygame.image.load('image/mandelbrot.jpeg'), (240, 200))
-        self.julia = pygame.transform.scale(pygame.image.load('image/Julia.png'), (240, 240))
+        self.julia = pygame.transform.scale(pygame.image.load('image/Julia.png'), (240, 200))
         self.flocon_de_koch = pygame.transform.scale(pygame.image.load('image/flocon_de_koch.jpeg'), (240, 200))
         self.burning_ship = pygame.transform.scale(pygame.image.load('image/burning_ship.png'), (240, 200))
 
