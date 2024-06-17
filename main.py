@@ -1,7 +1,5 @@
 import pygame
-from Julia import Julia
-from Sierpinski import Sierpinski
-from Mandelbrot import Mandelbrot
+from Fractales import Julia , Mandelbrot , Sierpinski
 
 class Main:
     def __init__(self) :

@@ -8,7 +8,7 @@ class Sierpinski:
         self.width, self.height = 800, 800
 
         # Nombre d'itérations
-        self.max_iter = 10000
+        self.max_iter = 8
 
         # Initialisation des points
         self.points = np.zeros((self.max_iter, 2))
