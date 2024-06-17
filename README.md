@@ -19,26 +19,36 @@ Itération ? L'itération est un processus dans lequel une séquence d'opératio
 
 ![image](https://github.com/alouane-mehdi/mandelbrot/assets/146713129/a86b796a-da27-4de4-b7f4-49f0b74619aa)
 
-Nombres complexes ? Les nombres complexes sont une extension des nombres réels, représentés sous la forme 
-𝑎
-+
-𝑏
-𝑖
-a+bi, où 
-𝑎
-a et 
-𝑏
-b sont des nombres réels et 
-𝑖
-i est l'unité imaginaire, définie par la relation 
-𝑖
-2
-=
-−
-1
-i 
-2
- =−1. Les nombres complexes permettent de résoudre des équations qui n'ont pas de solutions réelles, et ils sont utilisés dans divers domaines, y compris l'ingénierie, la physique et le traitement du signal. Un plan complexe est souvent utilisé pour visualiser les nombres complexes, avec l'axe horizontal représentant la partie réelle et l'axe vertical représentant la partie imaginaire.
+Nombre complexes ? Les nombres complexes sont une extension des nombres réels, représentés sous la forme a + bi, où a et b sont des nombres réels et i est l'unité imaginaire définie par la relation i2 = -1. Les nombres complexes permettent de résoudre des équations qui n'ont pas de solutions réelles, et ils sont utilisés dans divers domaines, y compris l'ingénierie, la physique et le traitement du signal. Un plan complexe est souvent utilisé pour visualiser les nombres complexes, avec l'axe horizontal représentant la partie réelle et l'axe vertical représentant la partie imaginaire.
+ 
+Equations récusrives ? Une équation récursive est une équation qui définit une séquence où chaque terme est une fonction des termes précédents. Cela signifie que pour trouver un terme de la séquence, il faut connaître les termes antérieurs. Les équations récursives sont couramment utilisées pour modéliser des processus dynamiques et pour définir des séries comme la suite de Fibonacci. En informatique, les algorithmes récursifs exploitent ce principe pour résoudre des problèmes en les décomposant en sous-problèmes plus simples.
 
- Equations récusrives ? Une équation récursive est une équation qui définit une séquence où chaque terme est une fonction des termes précédents. Cela signifie que pour trouver un terme de la séquence, il faut connaître les termes antérieurs. Les équations récursives sont couramment utilisées pour modéliser des processus dynamiques et pour définir des séries comme la suite de Fibonacci. En informatique, les algorithmes récursifs exploitent ce principe pour résoudre des problèmes en les décomposant en sous-problèmes plus simples.
+
+## Outils 
+
+Nous avons utilisé le langage Python , les libraires numpy et matplotlib , impératives pour visualiser et implémenter les différents algorithmes . Nous avons eu recours à Trello pour l'organisation de notre équipe .
+
+
+## Présentation 
+
+Voici donc notre rendu : 
+
+1ère page : 
+
+![image](https://github.com/alouane-mehdi/mandelbrot/assets/146713129/f64e1a95-3c57-4753-bee8-57cb42fb5466)
+
+Le fichier main qui réportorie les 5 fractales .
+
+2ème : 
+
+![image](https://github.com/alouane-mehdi/mandelbrot/assets/146713129/9bc2ffd6-56e9-4a8b-bfa0-808385541e73)
+
+L'appel du fichier fractales.py qui appelle dans ce cas la la fractale de Julia .
+
+
+
+
+
+
+ 
 
