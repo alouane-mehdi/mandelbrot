@@ -1,8 +1,5 @@
 import pygame
-from Julia import Julia
-from Sierpinski import Sierpinski
-from Mandelbrot import Mandelbrot
-from BurningShip import BurningShip
+from fractales import FloconDeKoch, Sierpinski, Mandelbrot, BurningShip, Julia
 
 class Main:
     def __init__(self):
@@ -10,6 +7,7 @@ class Main:
         self.sierpinski_script = Sierpinski()
         self.mandelbrot_script = Mandelbrot()
         self.burning_ship_script = BurningShip()
+        self.koch_snowflake_script = FloconDeKoch(iterations=4)
 
         pygame.init()
 
@@ -52,7 +50,7 @@ class Main:
                     elif self.rect_julia.collidepoint(event.pos):
                         self.julia_script.show()
                     elif self.rect_flocon.collidepoint(event.pos):
-                        print("Koch snowflake clicked!")
+                        self.koch_snowflake_script.show()
                     elif self.rect_burning_ship.collidepoint(event.pos):
                         self.burning_ship_script.show()
 
